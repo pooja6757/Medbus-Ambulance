@@ -1,0 +1,4 @@
+#Mon Apr 15 15:10:05 IST 2019
+base.0=C\:\\Users\\hp pc\\AndroidStudioProjects\\MyAmbulance\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+path.0=classes.dex
+renamed.0=classes.dex

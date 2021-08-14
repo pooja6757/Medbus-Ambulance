@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HelpActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back"
+        android:minHeight="750dp">
+
+        <TextView
+            android:id="@+id/diverLoginInfo"
+            android:layout_width="374dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="680dp"
+            android:text="Follow steps for Driver Login:-"
+            android:textColor="#000000"
+            android:textSize="23dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/driversteps"
+            android:layout_width="325dp"
+            android:layout_height="225dp"
+
+            android:layout_marginStart="43dp"
+            android:layout_marginLeft="43dp"
+            android:layout_marginTop="98dp"
+            android:layout_marginEnd="43dp"
+            android:layout_marginRight="43dp"
+            android:layout_marginBottom="427dp"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:text="1.Open app and click on driver icon.\n2.if you already register,click on login button otherwise click on register button.\n3.if you click on login button then enter your username that is your email and password and wait.\n4.if you click on register button then complete all fields and click registration button.\n\nNote:-\n1.Chek your internet connection for login and registration.\n2.Password must be greater than 8 digit."
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/UserLoginSteps"
+            android:layout_width="300dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="357dp"
+            android:layout_marginEnd="79dp"
+            android:layout_marginRight="79dp"
+            android:layout_marginBottom="356dp"
+            android:text="Follow setps for User Login:-"
+            android:textColor="#000000"
+            android:textSize="23dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" /><![CDATA[
+
+
+        "
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="424dp" />
+
+        ]]>
+
+        <TextView
+            android:id="@+id/editText3"
+            android:layout_width="323dp"
+            android:layout_height="273dp"
+            android:layout_marginStart="43dp"
+            android:layout_marginLeft="43dp"
+            android:layout_marginTop="412dp"
+            android:layout_marginEnd="45dp"
+            android:layout_marginRight="45dp"
+            android:layout_marginBottom="65dp"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:text="1.Open app and click on User icon.\n2.if you already register,click on login button otherwise click on register button.\n3.if you click on login button then enter your phone number and click on generate OTP button.\n4.if you get OTP then enter your OTP and click on verify OTP button.\n5.if you click on register button then enter your phone number and register.\n\nNote:-\n1.if you didn't get any OTP,check your internet connection and try again.\n2.phone number should be valid."
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>
